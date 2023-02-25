@@ -1,0 +1,28 @@
+@import "variables";
+@import "config";
+@import "title";
+@import "header";
+@import "main";
+@import "aside";
+@import "footer";
+
+@media screen and (max-width: 850px) {
+  .tab,
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title h1 {
+    margin-bottom: 20px;
+  }
+}
